@@ -70,9 +70,9 @@ This repo follows two main phases: **Key Generation** and **Signing**.
 
 ```
 .
+├── frost-ts/    # participant and helper classes
 ├── src/
 │   ├── mpc-sign-clean.ts   # main demo implementation
-│   └── frost-ts/           # participant and helper classes
 ├── package.json
 └── README.md
 ```

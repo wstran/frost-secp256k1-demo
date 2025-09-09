@@ -2,11 +2,11 @@
   "name": "frost-secp256k1-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/mpc-sign-clean.js",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node dist/mpc-sign-clean.js",
     "build": "tsc",
-    "dev": "NODE_NO_WARNINGS=1 nodemon --watch src --ext ts --exec ts-node src/index.ts",
+    "dev": "NODE_NO_WARNINGS=1 nodemon --watch src --ext ts --exec ts-node src/mpc-sign-clean.ts",
     "clean": "rm -rf dist"
   },
   "keywords": [],
